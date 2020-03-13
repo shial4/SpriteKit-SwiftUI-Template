@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "626FA66823D6F9CD008170CD"
-               BuildableName = "Little Wars.app"
+               BuildableName = "Game.app"
                BlueprintName = "Game iOS"
                ReferencedContainer = "container:Game.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "626FA66823D6F9CD008170CD"
-            BuildableName = "Little Wars.app"
+            BuildableName = "Game.app"
             BlueprintName = "Game iOS"
             ReferencedContainer = "container:Game.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "626FA66823D6F9CD008170CD"
-            BuildableName = "Little Wars.app"
+            BuildableName = "Game.app"
             BlueprintName = "Game iOS"
             ReferencedContainer = "container:Game.xcodeproj">
          </BuildableReference>
