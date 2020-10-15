@@ -9,16 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        GameView()
-        .overlay(
-            HStack {
-                VStack {
-                    Spacer()
-                    Text("Swift UI HUD")
+        SceneView(scene: GameScene.newGameScene())
+            .edgesIgnoringSafeArea(.all)
+            .overlay(
+                HStack {
+                    VStack {
+                        Spacer()
+                        Text("Swift UI HUD")
+                            .foregroundColor(.red)
+                        Spacer()
+                    }
                     Spacer()
                 }
-                Spacer()
-            }
-        )
+            )
     }
 }
