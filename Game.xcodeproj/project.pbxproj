@@ -46,6 +46,15 @@
 		6273F10725386F7000F03E4A /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6273F10625386F7000F03E4A /* SceneView.swift */; };
 		6273F10825386F7000F03E4A /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6273F10625386F7000F03E4A /* SceneView.swift */; };
 		6273F10925386F7000F03E4A /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6273F10625386F7000F03E4A /* SceneView.swift */; };
+		627F3E6825BC0E2700A73942 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F3E6725BC0E2700A73942 /* Sounds.swift */; };
+		627F3E6925BC0E2700A73942 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F3E6725BC0E2700A73942 /* Sounds.swift */; };
+		627F3E6A25BC0E2700A73942 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F3E6725BC0E2700A73942 /* Sounds.swift */; };
+		627F3E7625BC0E4F00A73942 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F3E7025BC0E4F00A73942 /* Color.swift */; };
+		627F3E7725BC0E4F00A73942 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F3E7025BC0E4F00A73942 /* Color.swift */; };
+		627F3E7825BC0E4F00A73942 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F3E7025BC0E4F00A73942 /* Color.swift */; };
+		627F3E7925BC0E4F00A73942 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F3E7225BC0E4F00A73942 /* Bundle.swift */; };
+		627F3E7A25BC0E4F00A73942 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F3E7225BC0E4F00A73942 /* Bundle.swift */; };
+		627F3E7B25BC0E4F00A73942 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F3E7225BC0E4F00A73942 /* Bundle.swift */; };
 		6288863A23EFBA6C0060EB25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6288863923EFBA6C0060EB25 /* SceneDelegate.swift */; };
 		6288863C23EFBB010060EB25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6288863B23EFBB010060EB25 /* ContentView.swift */; };
 		6288866D23EFC19B0060EB25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6288863B23EFBB010060EB25 /* ContentView.swift */; };
@@ -79,6 +88,9 @@
 		626FA69323D6F9CD008170CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		626FA69523D6F9CD008170CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6273F10625386F7000F03E4A /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
+		627F3E6725BC0E2700A73942 /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		627F3E7025BC0E4F00A73942 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		627F3E7225BC0E4F00A73942 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		6288863923EFBA6C0060EB25 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6288863B23EFBB010060EB25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62F7A79423D80182009B2A7B /* SpriteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteSheet.swift; sourceTree = "<group>"; };
@@ -177,6 +189,30 @@
 			path = "Game macOS";
 			sourceTree = "<group>";
 		};
+		627F3E6625BC0E2700A73942 /* AVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				627F3E6725BC0E2700A73942 /* Sounds.swift */,
+			);
+			path = AVFoundation;
+			sourceTree = "<group>";
+		};
+		627F3E6E25BC0E4F00A73942 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				627F3E7025BC0E4F00A73942 /* Color.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		627F3E7125BC0E4F00A73942 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				627F3E7225BC0E4F00A73942 /* Bundle.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
 		6288868F23EFE31E0060EB25 /* Sprites */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +265,8 @@
 		62F7A79223D8016A009B2A7B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				627F3E6E25BC0E4F00A73942 /* SwiftUI */,
+				627F3E7125BC0E4F00A73942 /* Types */,
 				62041AD023DD1FEB00F958D1 /* SKTileDefinition.swift */,
 				62041AD423DD210500F958D1 /* SKTileGroupRule.swift */,
 				62041AD823DD48BE00F958D1 /* SKTileGroup.swift */,
@@ -239,6 +277,7 @@
 		62F7A79323D80171009B2A7B /* Generics */ = {
 			isa = PBXGroup;
 			children = (
+				627F3E6625BC0E2700A73942 /* AVFoundation */,
 				62F7A79423D80182009B2A7B /* SpriteSheet.swift */,
 				6273F10625386F7000F03E4A /* SceneView.swift */,
 			);
@@ -388,10 +427,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				62F7A79523D80182009B2A7B /* SpriteSheet.swift in Sources */,
+				627F3E7925BC0E4F00A73942 /* Bundle.swift in Sources */,
 				6288863C23EFBB010060EB25 /* ContentView.swift in Sources */,
 				6273F10725386F7000F03E4A /* SceneView.swift in Sources */,
 				62041AD523DD210500F958D1 /* SKTileGroupRule.swift in Sources */,
+				627F3E7625BC0E4F00A73942 /* Color.swift in Sources */,
 				62041AD123DD1FEB00F958D1 /* SKTileDefinition.swift in Sources */,
+				627F3E6825BC0E2700A73942 /* Sounds.swift in Sources */,
 				626FA69C23D6F9CD008170CD /* GameScene.swift in Sources */,
 				6248296A23F0E832006EDB5F /* Screen.swift in Sources */,
 				62041AD923DD48BE00F958D1 /* SKTileGroup.swift in Sources */,
@@ -405,12 +447,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				62F7A79623D80182009B2A7B /* SpriteSheet.swift in Sources */,
+				627F3E7A25BC0E4F00A73942 /* Bundle.swift in Sources */,
 				6288866D23EFC19B0060EB25 /* ContentView.swift in Sources */,
 				62041AD623DD210500F958D1 /* SKTileGroupRule.swift in Sources */,
 				62041AD223DD1FEB00F958D1 /* SKTileDefinition.swift in Sources */,
+				627F3E7725BC0E4F00A73942 /* Color.swift in Sources */,
 				626FA69D23D6F9CD008170CD /* GameScene.swift in Sources */,
 				6248296B23F0E832006EDB5F /* Screen.swift in Sources */,
 				62041ADA23DD48BE00F958D1 /* SKTileGroup.swift in Sources */,
+				627F3E6925BC0E2700A73942 /* Sounds.swift in Sources */,
 				626FA67E23D6F9CD008170CD /* AppDelegate.swift in Sources */,
 				6273F10825386F7000F03E4A /* SceneView.swift in Sources */,
 			);
@@ -421,12 +466,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				62F7A79723D80182009B2A7B /* SpriteSheet.swift in Sources */,
+				627F3E7B25BC0E4F00A73942 /* Bundle.swift in Sources */,
 				62041AD723DD210500F958D1 /* SKTileGroupRule.swift in Sources */,
 				6288866F23EFC45E0060EB25 /* ContentView.swift in Sources */,
 				62041AD323DD1FEB00F958D1 /* SKTileDefinition.swift in Sources */,
+				627F3E7825BC0E4F00A73942 /* Color.swift in Sources */,
 				626FA69E23D6F9CD008170CD /* GameScene.swift in Sources */,
 				6248296C23F0E832006EDB5F /* Screen.swift in Sources */,
 				62041ADB23DD48BE00F958D1 /* SKTileGroup.swift in Sources */,
+				627F3E6A25BC0E2700A73942 /* Sounds.swift in Sources */,
 				626FA68F23D6F9CD008170CD /* AppDelegate.swift in Sources */,
 				6273F10925386F7000F03E4A /* SceneView.swift in Sources */,
 			);

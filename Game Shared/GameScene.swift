@@ -13,14 +13,14 @@ class GameScene: SKScene {
     fileprivate var spinnyNode : SKShapeNode?
 
     
-    class func newGameScene() -> GameScene {
+    class func newGameScene(_ size: CGSize? = nil) -> GameScene {
         // Load 'GameScene.sks' as an SKScene.
         guard let scene = SKScene(fileNamed: "GameScene") as? GameScene else {
             print("Failed to load GameScene.sks")
             abort()
         }
         
-        // Set the scale mode to scale to fit the window
+        if let size = size { scene.size = size }
         scene.scaleMode = .aspectFill
         
         return scene
